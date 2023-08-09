@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starbucks</title>
+    <link rel="stylesheet" href="star.css">
+</head>
+<body>
+    <section>
+        <div class="cir" id="mycir">
+            
+        </div>
+        <header>
+            <a href="" class="logo">
+                <img src="images/logo.png" alt="">
+            </a>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">whats new</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </header>
+           
+        
+        <div class="cont">
+            <div class="text">
+                <h2>it is non just coffee <br> it is <span>starbucks</span></h2>
+                <p>Checking the connection
+                    Checking the proxy, firewall, and DNS configuration
+                    Running Windows Network Diagnostics
+                    ERR_NAME_NOT_RESOLVED</p>
+                    <a href="#">learn more!!</a>
+                </div>
+                    <div class="img">
+                        <img src="images/img1.png" id="mystar">
+                    </div>
+            
+        </div>
+        <ul class="thumb">
+            <li><img src="images/thumb1.png" onclick="change() ; changecolor()" ></li>
+            <li><img src="images/thumb2.png" onclick="change1()"></li>
+            <li><img src="images/thumb3.png" onclick="change2()"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+    <script>
+        function change(){
+            var imag = document.getElementById('mystar');
+            imag.src= 'images/img2.png'
+
+        }
+        function change1(){
+            var imag = document.getElementById('mystar');
+            imag.src= 'images/img3.png'
+
+        }
+        function change2(){
+            var imag = document.getElementById('mystar');
+            imag.src= 'images/img1.png'
+
+        }
+       
+    </script>
+
+
+
+
+
+</body>
+</html>
